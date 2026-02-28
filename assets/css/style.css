@@ -350,7 +350,7 @@ kbd {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(0%, -50%);
+  transform: translate(-50%, -50%); /* Buradaki 0% değeri -50% yapıldı */
   z-index: 1111199;
 }
 .loading-window .text {
