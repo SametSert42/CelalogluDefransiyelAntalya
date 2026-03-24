@@ -202,7 +202,10 @@
 .ak-site_branding {
   display: inline-block;
   img {
-    max-height: 45px;
+     max-height: 100px;
+    width: auto;
+    height: auto;
+    display: block;
   }
 }
 
