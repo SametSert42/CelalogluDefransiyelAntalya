@@ -29,8 +29,9 @@
     position: relative;
     .circle-img {
       position: absolute;
-      bottom: 27px;
-      left: -90px;
+      bottom: 20px;
+      left: -45px;
+      width: clamp(140px, 32%, 210px);
     }
   }
 }
