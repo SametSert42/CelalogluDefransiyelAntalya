@@ -1,0 +1,8 @@
+# PHP dosyalarının uploads klasöründen çalışmasını engelle
+<FilesMatch "\.php$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Sadece izin verilen dosya türleri
+Options -Indexes

@@ -189,8 +189,8 @@
           },
         },
         navigation: {
-          nextEl: ".ak-swiper-button-prev",
-          prevEl: ".ak-swiper-button-next",
+         nextEl: ".ak-swiper-button-next",
+          prevEl: ".ak-swiper-button-prev",
         },
       };
 
@@ -207,8 +207,8 @@
         },
         watchSlidesProgress: true,
         navigation: {
-          nextEl: ".ak-swiper-button-prev.slider-three",
-          prevEl: ".ak-swiper-button-next.slider-three",
+          nextEl: ".ak-swiper-button-next.slider-three",
+          prevEl: ".ak-swiper-button-prev.slider-three",
         },
       };
 
